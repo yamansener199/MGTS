@@ -1,0 +1,26 @@
+/* sadece scrollheadinner çalışıyor */
+
+#mytable 
+#mytable_filter {
+    font-family                               :"Dosis", arial;
+    color                                     :white;
+    font-weight                               :300;
+}
+
+.dataTables_scrollHeadInner{
+    font-family                               :"Dosis", arial;
+    color                                     :#DDDDDD;
+    font-weight                               :300;
+}
+
+.paginate_button{
+    font-family                               :"Dosis", arial;
+    color                                     :white;
+    font-weight                               :300;
+}
+
+.dataTables_filter{
+    font-family                               :"Dosis", arial;
+    color                                     :white;
+    font-weight                               :300;
+}

@@ -1,0 +1,62 @@
+
+ .accordion{
+ 	width                       : 500px;
+ 	box-sizing                  : border-box;
+ }
+ .accordion .item{
+ 	position                    : relative;
+ 	border-top                  : 1px solid #ccc;
+ 	border-radius               : 7px;
+ }
+ .accordion .item:last-child{
+ 	margin-bottom               : 0;
+ }
+
+ .accordion .item .content{
+
+ 	border-radius               : 0 0 3px 3px;
+ 	max-height                  : 0;
+ 	overflow                    : hidden;
+ 	padding                     : 0 15px;
+ 	line-height                 : 130%;
+ 	font-size                   : 17px;
+ 	transition                  : 250ms all;
+ }
+ .accordion .item .title {
+ 	color                       :#fff;
+ 	height                      : 40px;
+ 	border-radius               : 3px;
+ 	display                     : flex;
+ 	align-items                 : center;
+ 	padding                     : 0 15px;
+ 	font-size                   : 20px;
+ }
+ .accordion .item .title i{
+ 	margin-right                : 10px;
+ 	transition                  : 400ms all;
+ }
+ .accordion .item input{
+ 	position                   : absolute;
+ 	top                        : 0;
+ 	left                       : 0;
+ 	width                      : 100%;
+ 	height                     : 40px;
+ 	opacity                    : 0;
+ 	cursor                     : pointer;
+ }
+ .accordion .item input:checked + .title {
+ 	background                 : transparent;
+ 	border-radius              : 3px 3px 0 0;
+ }
+ .accordion .item input:checked + .title i {
+ 	transform                  : rotate(90deg);
+ }
+ .accordion .item input:checked + .title + .content {
+ 	color                      : #fff;
+ 	max-height                 : 700px;
+ 	padding                    : 15px;
+ }
+
+  html,body{
+    font-family                : "Dosis", arial;
+ }

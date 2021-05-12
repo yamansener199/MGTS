@@ -1,0 +1,354 @@
+[
+    {
+        "timestamp": 1617710412.312398,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.037842001446580405,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.025929298984956068,
+            "lng": -1.7217870534289168
+        },
+        "speed_and_mode": {
+            "vehicle_mode": 1,
+            "left_motor_speed": 0.0,
+            "right_motor_speed": 0.0
+        }
+    },
+    {
+        "timestamp": 1617710416.87111,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.037834855279277366,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.025855148409518445,
+            "lng": -1.7218107731373178
+        },
+        "speed_and_mode": {
+            "vehicle_mode": 1,
+            "left_motor_speed": 0.0,
+            "right_motor_speed": 0.0
+        }
+    },
+    {
+        "timestamp": 1617710421.160186,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.03782808172695738,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.025785453703934817,
+            "lng": -1.721833579329583
+        },
+        "speed_and_mode": {
+            "vehicle_mode": 1,
+            "left_motor_speed": 0.0,
+            "right_motor_speed": 0.0
+        }
+    },
+    {
+        "timestamp": 1617710425.671869,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.03782072928457288,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.025710479097018596,
+            "lng": -1.7218586788891945
+        },
+        "speed_and_mode": {}
+    },
+    {
+        "timestamp": 1617710429.888659,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.03781387744608703,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.025641360314766746,
+            "lng": -1.72188235327449
+        },
+        "speed_and_mode": {
+            "vehicle_mode": 1,
+            "left_motor_speed": 0.0,
+            "right_motor_speed": 0.0
+        }
+    },
+    {
+        "timestamp": 1617710434.366584,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.03780656395087553,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.02556841517460579,
+            "lng": -1.721907909760954
+        },
+        "speed_and_mode": {
+            "vehicle_mode": 1,
+            "left_motor_speed": 0.0,
+            "right_motor_speed": 0.0
+        }
+    },
+    {
+        "timestamp": 1617710438.921441,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.037799196444495406,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.025495804280468038,
+            "lng": -1.7219339462278924
+        },
+        "speed_and_mode": {
+            "vehicle_mode": 1,
+            "left_motor_speed": 0.0,
+            "right_motor_speed": 0.0
+        }
+    },
+    {
+        "timestamp": 1617710443.13404,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.037792193968561406,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.025427613902725396,
+            "lng": -1.7219589537032358
+        },
+        "speed_and_mode": {
+            "vehicle_mode": 1,
+            "left_motor_speed": 0.0,
+            "right_motor_speed": 0.0
+        }
+    },
+    {
+        "timestamp": 1617710447.359005,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.037785141749855956,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.025359728091519432,
+            "lng": -1.721984397808212
+        },
+        "speed_and_mode": {
+            "vehicle_mode": 1,
+            "left_motor_speed": 0.0,
+            "right_motor_speed": 0.0
+        }
+    },
+    {
+        "timestamp": 1617710451.924323,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.037777614128654824,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.025288104864471438,
+            "lng": -1.7220118502043396
+        },
+        "speed_and_mode": {
+            "vehicle_mode": 1,
+            "left_motor_speed": 0.0,
+            "right_motor_speed": 0.0
+        }
+    },
+    {
+        "timestamp": 1617710456.150159,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.03777031790288988,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.025219517727890346,
+            "lng": -1.7220387393140617
+        },
+        "speed_and_mode": {}
+    },
+    {
+        "timestamp": 1617710460.790736,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.03776268168065125,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.025148600628382697,
+            "lng": -1.7220671801969736
+        },
+        "speed_and_mode": {
+            "vehicle_mode": 1,
+            "left_motor_speed": 0.0,
+            "right_motor_speed": 0.0
+        }
+    },
+    {
+        "timestamp": 1617710465.261215,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.037755003170802506,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.025078052794075184,
+            "lng": -1.7220961363391318
+        },
+        "speed_and_mode": {
+            "vehicle_mode": 1,
+            "left_motor_speed": 0.0,
+            "right_motor_speed": 0.0
+        }
+    },
+    {
+        "timestamp": 1617710469.723725,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.03774729890375608,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.025007880220129855,
+            "lng": -1.7221256141971382
+        },
+        "speed_and_mode": {
+            "vehicle_mode": 1,
+            "left_motor_speed": 0.0,
+            "right_motor_speed": 0.0
+        }
+    },
+    {
+        "timestamp": 1617710474.243131,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.037739429964265284,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.024936778892484995,
+            "lng": -1.722156191934219
+        },
+        "speed_and_mode": {
+            "vehicle_mode": 1,
+            "left_motor_speed": 0.0,
+            "right_motor_speed": 0.0
+        }
+    },
+    {
+        "timestamp": 1617710478.788734,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.03773169519596673,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.024867387389305152,
+            "lng": -1.7221867439246903
+        },
+        "speed_and_mode": {
+            "vehicle_mode": 1,
+            "left_motor_speed": 0.0,
+            "right_motor_speed": 0.0
+        }
+    },
+    {
+        "timestamp": 1617710482.952026,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.0377243964566678,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.024802283528466626,
+            "lng": -1.722216064144652
+        },
+        "speed_and_mode": {
+            "vehicle_mode": 1,
+            "left_motor_speed": 0.0,
+            "right_motor_speed": 0.0
+        }
+    },
+    {
+        "timestamp": 1617710487.460341,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.03771651606627491,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.024732368625995087,
+            "lng": -1.722248279640012
+        },
+        "speed_and_mode": {
+            "vehicle_mode": 1,
+            "left_motor_speed": 0.0,
+            "right_motor_speed": 0.0
+        }
+    },
+    {
+        "timestamp": 1617710492.13351,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.037708786462842085,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.024664153674146233,
+            "lng": -1.7222804607729143
+        },
+        "speed_and_mode": {
+            "vehicle_mode": 1,
+            "left_motor_speed": 0.0,
+            "right_motor_speed": 0.0
+        }
+    },
+    {
+        "timestamp": 1617710496.39304,
+        "motor_fault_data": {},
+        "orientation": {
+            "yaw": 0.03770150182238574,
+            "roll": 0.0,
+            "pitch": -0.0
+        },
+        "coordinates": {
+            "lat": -0.02460017170766075,
+            "lng": -1.7223113376630255
+        },
+        "speed_and_mode": {
+            "vehicle_mode": 1,
+            "left_motor_speed": 0.0,
+            "right_motor_speed": 0.0
+        }
+    }
+]

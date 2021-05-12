@@ -1,0 +1,97 @@
+ .arrow-right {
+  width                                :0; 
+  height                               :0; 
+  border-top                           :13px solid transparent;
+  border-bottom                        :13px solid transparent;
+  border-left                          :13px solid #F2CB03;
+  transition                           :all 5s ease-in-out;
+  transition                           :opacity 500ms;
+  opacity                              :0;
+  margin-top                           :-20px;
+  margin-left                          :-15px;
+  visibility                           :hidden;
+}   
+.box{
+  width                                :32px;
+  margin                               :0 auto;
+}
+.dot{
+  height                               :32px;
+  width                                :32px;
+  display                              :inline-block;
+  border                               :1px solid transparent;
+  border-radius                        :50%;
+  background-image                     :url("http://cdn.onlinewebfonts.com/svg/img_547943.png");
+  background-size                      :cover;
+  background-repeat                    :no-repeat;
+}
+
+.content .information{
+  text-align                           :center;
+  line-height                          :25px;
+}
+.content .person{
+  margin-left                          :70px;
+  color                                :white;
+}
+.content .settings{
+  text-align                           :center;
+}
+.content .settings a{
+  text-decoration                      :none;
+  font-size                            :18px;
+  color                                :black;
+  line-height                          :25px;
+}
+.content .settings a:hover{
+  color                                :red;
+}
+.layer{
+  border-bottom                        :2px solid #666;
+  padding-bottom                       :13px;
+  border-radius                        :8px;
+  margin-bottom                        :5px;
+}
+.popup{
+  right                                :77px;
+  bottom                               :10px;
+  padding-top                          :10px;
+  background                           :#F2CB03;
+  border-radius                        :5px;
+  width                                :200px;
+  height                               :285px;
+  position                             :absolute;
+  transition                           :all 5s ease-in-out;
+}
+
+/*.popup .close{
+  position                             :absolute;
+  top                                  :10px;
+  right                                :10px;
+  transition                           :all 200ms;
+  font-size                            :30px;
+  font-weight                          :bold;
+  text-decoration                      :none;
+  color                                :#333;
+}
+.popup .close:hover{
+  color                                :#000;
+}*/
+.popup .content {
+  overflow                             :hidden;
+  margin-top                           :25px;
+}
+.overlay{
+  /*position                             :fixed;*/
+  top                                  :0;
+  bottom                               :0;
+  left                                 :0;
+  right                                :0;
+  transition                           :opacity 500ms;
+  visibility                           :hidden;
+  opacity                              :0;
+}
+.overlay_toggle{
+  visibility                           :visible;
+  opacity                              :1;
+}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/*
+ * CSS document for Alpera Savunma Sistemleri A.Ş.
+ * written by A.Deniz ÖZBARLI @ 18.09.2020
+ * last modified @ 18.09.2020
+ *
+ * Screen Resolutions & Dimension Values & 
+ *
+*/
+
+/* Resolution Data */
+.w640  	{width 	: 640px;}
+.w1280 	{width 	: 1280px;}
+.w1870 	{width 	: 1870px;}
+.w1920 	{width 	: 1920px;}
+.w2560 	{width 	: 2560px;}
+
+.h800  	{height : 800px;}
+.h975  	{height : 975px;}
+.h1080 	{height : 1080px;}
+
+
+/* Grid Dimensions */
+.w64 	{width 	: 64px;}
+.w448  	{width 	: 448px;}	
+.w512  	{width 	: 512px;}
+.w576  	{width 	: 576px;}
+.w1408  {width 	: 1408px;}
+
+
+

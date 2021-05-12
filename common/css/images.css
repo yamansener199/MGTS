@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/*
+ * CSS document for Alpera Savunma Sistemleri A.Ş.
+ * written by A.Deniz ÖZBARLI @ 18.09.2020
+ * last modified @ 18.09.2020
+ *
+ * Iamges
+ *
+*/
+
+.img-common{
+    background-image	: url("../img/common.png");
+    background-color	: none;	
+	}
+
+.img-teknopark{
+    background-image	: url("../img/client-logo-teknopark.png");
+    background-color	: none;	
+	}

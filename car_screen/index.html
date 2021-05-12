@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>mTGS : Kontrol Merkezi / Ana Kontrol Ekranı  </title>
+
+    <meta charset="utf-8">
+
+    <link rel="shortcut icon" type="image/png" href="../common/images/favicon.ico"/>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="../common/css/reset.css" />      
+    <link rel="stylesheet" type="text/css" href="../common/css/global.css" />
+    <link rel="stylesheet" type="text/css" href="../common/css/resolution.css" />
+    <link rel="stylesheet" type="text/css" href="../common/css/tabs.css" />
+
+    <link rel="stylesheet" type="text/css" href="../common/css/scrollbar.css" />
+
+    <link rel="stylesheet" type="text/css" href="../common/css/accordion.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Javascript -->
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoXrCwglHyTg7Thji2-4SQ-jLzedb-qe8&language=tr&region=TR&libraries=&v=weekly"
+    defer
+    ></script>
+    <script type="text/javascript" src="../common/js/global.js"></script>
+    <script type="text/javascript" src="../common/js/map_styles.js"></script>
+    <script type="text/javascript" src="../common/js/car_google.js"></script>
+    
+
+</head>
+<body>
+   <div class="main-wrapper w2560 h1080" style="background:#171717">
+
+    <div class="content tabset">
+        <!-- Tab 1 -->
+        <input type="radio" name="tabset" id="tab1" aria-controls="marzen" checked>
+        <label for="tab1">Map</label>
+        <!-- Tab 2 -->
+        <input type="radio" name="tabset" id="tab2" aria-controls="rauchbier">
+        <label for="tab2">Rauchbier</label>
+        <!-- Tab 3 -->
+        <input type="radio" name="tabset" id="tab3" aria-controls="dunkles">
+        <label for="tab3">Dunkles Bock</label>
+
+        <input type="radio" name="tabset" id="tab4" aria-controls="gamepad">
+        <label for="tab4">Gamepad Bock</label>
+
+        <div class="tab-panels">
+            <section id="marzen" class="tab-panel">
+
+            </section>
+            <section id="rauchbier" class="tab-panel">
+                <div class="main-content-wrapper h975 w1870">
+                    <div id="map" style="margin-top:25px;"></div> 
+                </div>
+            </section>
+            <section id="dunkles" class="tab-panel">
+                <h2>6C. Dunkles Bock</h2>
+
+            </section>
+            <section id="gamepad" class="tab-panel">
+                <h2>Gamepad Test</h2>
+
+            </section>
+        </div>
+    </div>
+
+    <div class="main-sidebar-wrapper h1080 w640">
+        <div class="main-sidebar-content-wrapper h1080 w576">
+            <div id="header"class="main-sidebar-content-header">
+                <div class="sidebar-content-client-logo img-teknopark"></div>
+                <div class="sidebar-content-application-title">
+                    <ul>
+                        <li style="margin-top:13px;line-height:24px;font-size:16px;color:#999999">MOBİL TESİS GÜVENLİK SİSTEMİ</li>
+                        <li style="font-size:22px;">KOMUTA KONTROL MERKEZİ</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sidebar-content-global-time-wrapper">
+                <div id="dash-date" style="margin: 0 25px;clear:both;color:#999999;position:relative;height:21px;line-height: 21px;font-size:18px;text-align: right;"></div>
+                <div style="margin: 0 25px;clear:both;color:#ffffff;position:relative;height:32px;line-height: 32px;font-size:32px;text-align: right;">
+                    <div id="dash-TS" style="float:right;width:42px;height:32px;line-height: 32px;font-size:32px;">TS</div>
+                    <div id="dash-millis" style="float:right;width:32px;height:32px;line-height: 32px;font-size:24px;margin-right:5px;"></div>
+                    <div id="dash-time" style="float:right;width:103px;height:32px;line-height: 32px;font-size:32px;text-align: left;"></div>
+                </div>
+            </div>
+            <div id="title"class="main-sidebar-content-title" style="clear:both;font-size: 17px;">HOME</div>
+            <!-- ScrollBar -->
+            <div class="scrollbar" id="style-scroll">
+                <div class="force-overflow">
+                    <div id="content-wrapper"><div id="home">    
+                      
+                      <div class="accordion">
+                        <div class="item">
+                            <input type="checkbox" name="test">
+                            <div class="title">
+                                <i class="fa fa-caret-right"></i>
+                                Section 1
+                            </div>
+                            <div class="content">
+                                Mauris mauris ante, blandit et, ultrices 
+                            </div>
+                        </div>
+                        <div class="item">
+                            <input type="checkbox" name="test">
+                            <div class="title">
+                                <i class="fa fa-caret-right"></i>
+                                Section 2
+                            </div>
+                            <div class="content">
+                                Mauris mauris ante, blandit et, ultrices 
+                            </div>
+                        </div>
+                        <div class="item">
+                            <input type="checkbox" name="test">
+                            <div class="title">
+                                <i class="fa fa-caret-right"></i>
+                                Section 3
+                            </div>
+                            <div class="content">
+                                Mauris mauris ante, blandit et, ultrices 
+                            </div>
+                        </div>
+                    </div>
+                </div><div id="routes">R</div><div id="events">E</div><div id="apps">A</div></div>
+            </div>
+        </div>
+    </div>
+    <div class="main-sidebar-menu-wrapper h1080 w64">
+        <div class="img-common main-sidebar-logo-alpera"></div>
+        <div>
+            <ul id="sidebar-menu" class="main-sidebar-menu w64"><li class="img-common home"></li><li class="img-common routes"></li><li class="img-common events"></li><li class="img-common apps"></li></ul>
+        </div>
+        <div class="main-sidebar-menu-credits" style="position:absolute;bottom:0px;">
+            <ul>
+                <li class="img-common main-sidebar-logo-application"></li>
+                <li class="img-common main-sidebar-typo-alpera"></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

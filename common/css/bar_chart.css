@@ -1,0 +1,99 @@
+.progress-bar__container {
+	height: 400px;
+	width:100px;
+	position: absolute;
+	left: 0;
+	right:0;
+	margin-left:150px;
+	bottom:0;
+}
+
+.progress-bar__wrap {
+	background-color: rgb(233, 235, 238);
+	position: relative;
+	transform: translateY(-50%);
+	top: 50%;
+	margin-left: 50px;
+	width: 50px;
+	height: 320px;
+	float: left;
+	border-radius:5px;
+}
+
+.bar-value {
+	background: linear-gradient(to top, #F36C0D, #FF9E16);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	animation: grow 1.5s ease-out forwards;
+	transform-origin: bottom;
+	border-radius:5px;
+}
+.bar-value::before {
+	content: attr(title);
+	position:absolute;
+	bottom:10px;
+	left:5px;
+	color:white;
+
+
+}
+@keyframes grow {
+	from {
+		transform: scaleY(0);
+	}
+}
+
+.bar-value  {
+	-webkit-animation: slideIn 1s;
+	-moz-animation: slideIn 1s;
+	-o-animation: slideIn 1s;
+	animation: slideIn 1s;
+}
+
+@-webkit-keyframes slideIn {
+	0% {
+		height: 0;
+	}
+	100% {
+		height: normal;
+	}
+}
+
+@-moz-keyframes slideIn {
+	0% {
+		height: 0;
+	}
+	100% {
+		height: normal;
+	}
+}
+
+@-ms-keyframes slideIn {
+	.progress-bar 0% {
+		height: 0;
+	}
+	.progress-bar 100% {
+		height: normal;
+	}
+}
+
+@-o-keyframes slideIn {
+	0% {
+		height: 0;
+	}
+	100% {
+		height: normal;
+	}
+}
+
+@keyframes slideIn {
+	0% {
+		height: 0;
+	}
+	100% {
+		height: normal;
+	}
+}

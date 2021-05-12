@@ -1,0 +1,125 @@
+/* div{
+    width: 500px;
+    background-color: aqua;
+} */
+.buttons{
+    display: inline-block;
+    justify-content: center;
+}
+
+.button{
+    display: inline-flex;
+    width: 50px;
+    color: blue;
+    text-align: center;
+    padding: 1em;
+    margin: 8px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-image: url(../img/white.png);
+    background-size: 0% 0%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+.pressed{
+    border: 1px solid red;
+}
+
+.touched::after{
+    display: block;
+    position: absolute;
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+    font-size: 0.8em;
+    opacity: 0.7;
+}
+.css-c4uk4t {
+    position: relative;
+    height: 157px;
+    width: 157px;
+    margin-left: 20px;
+    margin-top: 50px;
+    display: inline-block;
+    border: 10px solid rgba(0, 0, 0, 0);
+}
+.css-c4uk4t .x-axis {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50%;
+    height: 0px;
+    background: white;
+    opacity: 0.5;
+}
+.css-c4uk4t .y-axis {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 50%;
+    height: 0px;
+    background: white;
+    opacity: 0.5;
+}
+.css-c4uk4t .circle-outline {
+    position: absolute;
+    inset: 0px;
+    border-radius: 50%;
+    border: 2px solid white;
+    opacity: 0.5;
+}
+.joystick-position {
+    
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: white;
+}
+.css-c4uk4t2 {
+    display: block;
+    position: relative;
+    height: 157px;
+    width: 157px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 50px;
+    display: inline-block;
+    border: 10px solid rgba(0, 0, 0, 0);
+}
+.css-c4uk4t2 .x-axis {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50%;
+    height: 0px;
+    background: white;
+    opacity: 0.5;
+}
+.css-c4uk4t2 .y-axis {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 50%;
+    width: 0px;
+    background: white;
+    opacity: 0.5;
+}
+.css-c4uk4t2 .circle-outline {
+    position: absolute;
+    inset: 0px;
+    border-radius: 50%;
+    border: 2px solid white;
+    opacity: 0.5;
+}
+.joystick-position2 {
+    
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background:white;
+}

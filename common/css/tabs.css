@@ -1,0 +1,70 @@
+ *,
+ *:before,
+ *:after{
+  box-sizing                                :border-box;
+}
+
+body{
+  font-family                               :"Dosis", arial;
+  color                                     :#333;
+  font-weight                               :300;
+}
+
+.tab-panel{
+  margin-right                              :50px;
+  border-top                                :1px solid #ccc;
+}
+
+ .tabset > input[type="radio"]{
+  position: absolute;
+  left: -200px;
+}
+
+.tabset .tab-panel{
+  display                                   :none;
+}
+
+.tabset > label{
+  margin-top                                :15px;
+  margin-left                               :25px;
+  position                                  :relative;
+  display                                   :inline-block;
+  padding                                   :10px 15px 10px;
+  border                                    :1px solid transparent;
+  border-bottom                             :0;
+  cursor                                    :pointer;
+  font-weight                               :600;
+  font-size                                 :17px;
+}
+
+.tabset > label:hover,
+.tabset > input:focus + label{
+  color                                     :#fff;
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after{
+  background                                :#06c;
+}
+
+.tabset > input:checked + label{
+  border-color                              :#ccc;
+  border-bottom                             :1px solid #171717;
+  margin-bottom                             :-1px;
+  color                                     :#fff;
+}
+
+.tabset{
+  margin-left                               :25px;
+  max-width                                 :1920px;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+display:block;
+}
